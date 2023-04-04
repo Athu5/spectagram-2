@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Text, View } from 'react-native';
-
+import PostCard from "./PostCard";
 import AppLoading from 'expo-app-loading';
 import * as Font from 'expo-font';
 
