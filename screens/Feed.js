@@ -15,6 +15,9 @@ this.state = {
 fontsLoaded: false,
         };
     }
+     renderItem = ({ item: post }) => {
+         return <PostCard post={post} navigation={this.props.navigation} />;
+    };
 
     async _loadFontsAsync() {
         await Font.loadAsync(customFonts);
